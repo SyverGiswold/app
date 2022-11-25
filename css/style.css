@@ -1,9 +1,73 @@
-h1 {
-    font-size: 16px;
+body {
+    background-color: #EBECE7;
+}
+
+image {
+}
+
+header {
+    position: fixed;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ede2da;
+    width: 100%;
+    padding: 0px 34px 0px 34px;
+    align-items: center;
+    border-color: #28221b;
+    border-bottom: 1px solid;
+}
+
+#header-logo {
+    height: 80px;
+    margin: 17px 0px 17px 0px;
+}
+
+.header-flex-navigation {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-flex-navigation h6:hover {
+    text-decoration: underline;
+}
+
+#header-dropdown {
+    display: inline-block;
+}
+
+#header-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ede2da;
+    width: 100%;
+    left: 0;
+    padding: 17px 34px 17px 34px;
+    z-index: 1;
+    justify-content: space-between;
+    border-color: #28221b;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#header-dropdown:hover #header-dropdown-content {
+    display: flex;
+}
+
+ul {
+    float: left;
+}
+
+li {
+    list-style-type: none;
+    padding: 17px;
+}
+
+li:hover {
+    text-decoration: underline;
 }
 
 /*carousel start
-Link to referance https://css-tricks.com/css-only-carousel/ */
+Link to referance https://css-tricks.com/css-only-carousel/
 @keyframes tonext {
     75% {
       left: 0;
@@ -57,7 +121,7 @@ Link to referance https://css-tricks.com/css-only-carousel/ */
   
   * {
     box-sizing: border-box;
-    scrollbar-color: transparent transparent; /* thumb and track color */
+    scrollbar-color: transparent transparent; thumb and track color
     scrollbar-width: 0px;
   }
   
