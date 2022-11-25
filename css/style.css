@@ -2,9 +2,6 @@ body {
     background-color: #EBECE7;
 }
 
-image {
-}
-
 header {
     position: fixed;
     display: flex;
