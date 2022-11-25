@@ -29,7 +29,7 @@ header {
 }
 
 #header-dropdown {
-    display: inline-block;
+    padding-top: auto;
 }
 
 #header-dropdown-content {
@@ -62,7 +62,6 @@ li {
 li:hover {
     text-decoration: underline;
 }
-
 /*carousel start
 Link to referance https://css-tricks.com/css-only-carousel/
 @keyframes tonext {
