@@ -1,6 +1,11 @@
 body {
     background-color: #EBECE7;
 }
+
+a {
+    color: #28221b;
+    text-decoration: none;
+}
 /* Desktop header start */
 .desktop-header {
     position: fixed;
