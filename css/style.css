@@ -1,8 +1,12 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #EBECE7;
 }
-
-header {
+/* Desktop header start */
+.desktop-header {
     position: fixed;
     display: flex;
     flex-wrap: nowrap;
@@ -14,17 +18,21 @@ header {
     border-bottom: 1px solid;
 }
 
-#header-logo {
+#desktop-header-logo {
     height: 80px;
     margin: 17px 0px 17px 0px;
 }
 
-.header-flex-navigation {
+.desktop-produkter-button {
+    background-color: #ede2da;
+}
+
+.desktop-header-flex-navigation {
     margin-left: auto;
     margin-right: auto;
 }
 
-.header-flex-navigation h6:hover {
+.desktop-header-flex-navigation h6:hover {
     text-decoration: underline;
 }
 
@@ -62,6 +70,7 @@ li {
 li:hover {
     text-decoration: underline;
 }
+/* Desktop header end*/
 /*carousel start
 Link to referance https://css-tricks.com/css-only-carousel/
 @keyframes tonext {
