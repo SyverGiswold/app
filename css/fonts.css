@@ -9,6 +9,7 @@ body {
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
+    padding-bottom: 0.2rem;
 }
 
 
@@ -16,6 +17,8 @@ h1 {
     font-size: 4.209rem;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+    padding-top: 3.4rem;
+    padding-bottom: 1.7rem;
 }
 
 h2 {
@@ -28,6 +31,7 @@ h3 {
     font-size: 2.369rem;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+    padding-bottom: 0.6rem;
 }
 
 h4 {
@@ -40,6 +44,7 @@ h5 {
     font-size: 1.333rem;
     font-family: 'Playfair Display', serif;
     font-weight: 500;
+    padding-bottom: 0.35rem;
 }
 
 h6 {
