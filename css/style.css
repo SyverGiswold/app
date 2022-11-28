@@ -6,6 +6,7 @@ a {
     color: #28221b;
     text-decoration: none;
 }
+
 /* Desktop header start */
 .desktop-header {
     position: fixed;
@@ -73,7 +74,12 @@ li {
 li:hover {
     text-decoration: underline;
 }
+
 /* Desktop header end*/
+
+/* Phone header start*/
+
+/* Phone hedaer end */
 
 main {
     padding-top: 120px;
@@ -153,6 +159,167 @@ main {
     max-height: 100%;
     max-height: 100%;
     object-fit: cover;
+}
+
+
+
+@media only screen and (min-width: 600px) {
+    .phone-header {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .phone-header {
+        position: fixed;
+        display: flex;
+        flex-wrap: nowrap;
+        background-color: #ede2da;
+        width: 100%;
+        padding: 24px 24px 24px 24px;
+        align-items: center;
+        border-color: #28221b;
+        border-bottom: 1px solid;
+        justify-content: space-between;
+    }
+
+    .phone-header-images {
+        max-height: 60px;
+    }
+
+    /* phone dropdown start
+      link https://codepen.io/raneio/pen/NbbZEM */
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dd-button {
+        display: inline-block;
+        background-color: #ede2da;
+    }
+
+    .dd-input {
+        display: none;
+    }
+
+    .dd-input+.dd-menu {
+        display: none;
+    }
+
+    .dd-input:checked+.dd-menu {
+        display: block;
+    }
+
+    .dd-menu {
+        position: absolute;
+        border: 1px solid #28221b;
+        left: 0;
+        width: 100%;
+        background-color: #ede2da;
+    }
+
+    .dd-menu li {
+        padding: 10px 20px;
+        cursor: pointer;
+        white-space: nowrap;
+    }
+
+    .dd-menu li a {
+        display: block;
+        margin: -10px -20px;
+        padding: 10px 20px;
+    }
+
+    .dd-menu li.divider {
+        padding: 0;
+        border-bottom: 1px solid #28221b;
+    }
+
+    .phone-dropdown-produkter {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .phone-produkter-categories {
+        margin-left: 17px;
+    }
+/* Dropdown i dropdown menu. Hvis jeg får fikset det.
+    .categories-wrapper {
+        position: relative;
+    }
+    .category-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .category-input:checked + label {
+    background:red;
+     height: 50px;
+      width: 50px;
+      position: absolute;
+     top:0;
+     left:0;
+     visibility: visible;
+    } */
+    /* phone dropdown end*/
+
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    a:hover {
+        color: #222222
+    }
+
+    ul {
+        float: left;
+    }
+
+    li {
+        list-style-type: none;
+        padding: 17px;
+    }
+
+    li:hover {
+        text-decoration: underline;
+    }
+
+    .desktop-header {
+        display: none;
+    }
+
+    #desktop-header-logo {
+        display: none;
+    }
+
+    .desktop-produkter-button {
+        display: none;
+    }
+
+    .desktop-header-flex-navigation {
+        display: none;
+    }
+
+    .desktop-header-flex-navigation h6:hover {
+        display: none;
+    }
+
+    #header-dropdown {
+        display: none;
+    }
+
+    #header-dropdown-content {
+        display: none;
+    }
+
+    #header-dropdown:hover #header-dropdown-content {
+        display: none;
+    }
 }
 
 /*carousel start
