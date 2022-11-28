@@ -170,6 +170,10 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
+    a {
+        display: contents;
+    }
+
     .phone-header {
         position: fixed;
         display: flex;
