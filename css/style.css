@@ -113,13 +113,16 @@ main {
   text-align: left;
   display: flex;
   padding-top: 5%;
+  padding-right: 5%;
   padding-bottom: 5%;
   margin-bottom: 68px;
 }
 
 .panton-chair-article {
-  padding-left: 15%;
-  padding-right: 10%;
+  margin-left: 15%;
+  justify-content: center;
+  width: 40%;
+  min-width: 350px;
 }
 
 .panton-chair-image {
@@ -163,13 +166,13 @@ main {
 
 
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 768px) {
   .phone-header {
     display: none;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 
   body {
     background-color: #EDE2DA;
