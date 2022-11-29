@@ -18,6 +18,7 @@ a {
     align-items: center;
     border-color: #28221b;
     border-bottom: 1px solid;
+    max-height: 120px;
 }
 
 #desktop-header-logo {
@@ -95,16 +96,11 @@ main {
 
 .nyheter-gallery {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    flex-wrap: wrap;
     padding-left: 10%;
     padding-right: 10%;
-}
-
-.nyhter-image {
-    max-height: 100%;
-    max-height: 100%;
-    object-fit: cover;
+    justify-content:center;
+    width: 100%;
 }
 
 .møbelhistorie-article-1 {
@@ -170,6 +166,10 @@ main {
 }
 
 @media only screen and (max-width: 600px) {
+    main {
+        padding-top: 100px;
+    }
+
     a {
         display: contents;
     }
@@ -179,12 +179,13 @@ main {
         display: flex;
         flex-wrap: nowrap;
         background-color: #ede2da;
-        width: 100%;
+        width: 100vw;
         padding: 24px 24px 24px 24px;
         align-items: center;
         border-color: #28221b;
         border-bottom: 1px solid;
         justify-content: space-between;
+        max-height: 100px;
     }
 
     .phone-header-images {
