@@ -99,6 +99,12 @@ main {
   padding-right: 10%;
   justify-content: center;
   width: 100%;
+  gap: 24px;
+}
+
+.nyheter-image {
+  width: 25vw;
+  min-width: 350px;
 }
 
 .møbelhistorie-article-1 {
@@ -305,34 +311,6 @@ main {
   /* Phone hedaer end */
 
   .desktop-header {
-    display: none;
-  }
-
-  #desktop-header-logo {
-    display: none;
-  }
-
-  .desktop-produkter-button {
-    display: none;
-  }
-
-  .desktop-header-flex-navigation {
-    display: none;
-  }
-
-  .desktop-header-flex-navigation h6:hover {
-    display: none;
-  }
-
-  #header-dropdown {
-    display: none;
-  }
-
-  #header-dropdown-content {
-    display: none;
-  }
-
-  #header-dropdown:hover #header-dropdown-content {
     display: none;
   }
 }
