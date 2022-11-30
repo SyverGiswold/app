@@ -390,7 +390,7 @@ p {
 }
 
 .most-popular {
-  display: flex;
+  display: flex; 
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -408,17 +408,22 @@ p {
 }
 
 .more-button {
-background-color: #4CAF50; /* Green */
+background-color: #28221b;
 border: none;
-color: white;
-padding: 16px 32px;
+color: #EBECE7;
+padding: 10px 20px;
 text-align: center;
 text-decoration: none;
 display: inline-block;
 font-size: 16px;
-margin: 4px 2px;
+margin-left: 85%;
 transition-duration: 0.4s;
 cursor: pointer;
+}
+
+.more-button:hover {
+  background-color: #ede2da;
+  color: #28221b;
 }
 
 
