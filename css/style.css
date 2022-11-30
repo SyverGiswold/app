@@ -127,6 +127,7 @@ main {
 .panton-chair-image {
   padding-left: 5%;
   padding-right: 5%;
+  align-self: center;
 }
 
 .møbelhistorie-article-2 {
@@ -148,6 +149,9 @@ main {
 .syveren-chair-image {
   padding-left: 5%;
   padding-right: 5%;
+  width: 100%;
+  align-self: center;
+
 }
 
 .inspirasjon-gallery {
@@ -366,7 +370,6 @@ main {
     height: 100%;
     width: 100%;
     max-width: 90vw;
-    object-fit: contain;
   }
 
 
