@@ -315,6 +315,34 @@ main {
   }
 }
 
+/*her starter CSS for produktside*/
+h2 {
+  margin: 30px 0px 20px 85px;
+
+}
+
+.most-popular {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.seating {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+
 /*carousel start
 Link to referance https://css-tricks.com/css-only-carousel/
 @keyframes tonext {
