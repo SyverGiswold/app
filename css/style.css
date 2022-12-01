@@ -173,13 +173,15 @@ main {
 
 .flex-container-blogg {
  width: 60vw;
-
+ align-items:space-between;
 
 }
 
 .flex-container-right {
   float:right;
   width: 40vw;
+  align-content: space-between;
+  
 }
 
 
