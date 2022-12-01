@@ -389,6 +389,20 @@ p {
   padding
 }
 
+.buy-button {
+  background-color: #28221b;
+  border: none;
+  color: #EBECE7;
+  padding: 10px 50px;
+  text-align: center;
+  display: inline-block;
+  margin-left: 125px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  }
+
 .most-popular {
   display: flex; 
   flex-wrap: wrap;
@@ -406,6 +420,7 @@ p {
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 
 .more-button {
 background-color: #28221b;
