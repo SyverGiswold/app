@@ -71,6 +71,8 @@ ul {
 li {
   list-style-type: none;
   padding: 17px;
+  transition: 2s;
+  text-decoration: none;
 }
 
 li:hover {
@@ -330,19 +332,19 @@ main {
     width: 100%;
     flex-wrap: wrap;
   }
-  
+
   .panton-chair-article {
     justify-content: center;
     margin: 0 auto 34px auto;
     width: 80vw;
   }
-  
+
   .panton-chair-image {
     margin-left: auto;
     margin-right: auto;
     width: 90vw;
   }
-  
+
   .møbelhistorie-article-2 {
     background-color: #809DAE;
     text-align: left;
@@ -356,14 +358,14 @@ main {
     flex-wrap: wrap;
     flex-direction: column-reverse;
   }
-  
+
   .syveren-chair-article {
     justify-content: center;
     margin: 0 auto 34px auto;
     width: 80vw;
     padding-right: 0;
   }
-  
+
   .syveren-chair-image {
     margin-left: auto;
     margin-right: auto;
