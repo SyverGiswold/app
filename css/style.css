@@ -379,6 +379,7 @@ main {
 }
 
 /*her starter CSS for produktside*/
+
 h2 {
   margin: 30px 0px 20px 85px;
 
@@ -390,23 +391,30 @@ p {
 }
 
 .buy-button {
-  background-color: #28221b;
+  background-color: #809DAE;
   border: none;
   color: #EBECE7;
   padding: 10px 50px;
   text-align: center;
   display: inline-block;
-  margin-left: 125px;
+  margin-left: 33%;
   margin-bottom: 50px;
   font-size: 20px;
   transition-duration: 0.4s;
   cursor: pointer;
   }
 
+  .buy-button:hover {
+    background-color: #ede2da;
+    color: #28221b;
+    border: #28221b;
+    border-style: solid;
+  }
+
 .most-popular {
   display: flex; 
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .news {
@@ -426,11 +434,12 @@ p {
 background-color: #28221b;
 border: none;
 color: #EBECE7;
-padding: 10px 20px;
+padding: 10px 80px;
 text-align: center;
 display: inline-block;
 font-size: 20px;
-margin-left: 85%;
+margin-left: 75%;
+margin-top: 50px;
 transition-duration: 0.4s;
 cursor: pointer;
 }
