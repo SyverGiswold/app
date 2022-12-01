@@ -174,7 +174,7 @@ main {
 .flex-container-blogg {
  width: 60vw;
  align-items:space-between;
- 
+ text-align: start;
 }
 
 .flex-container-right {
