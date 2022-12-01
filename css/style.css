@@ -175,13 +175,15 @@ main {
  width: 60vw;
  align-items:space-between;
  text-align: start;
+ text-justify: newspaper;
 }
 
 .flex-container-right {
   float:right;
   float:inline-start;
   width: 40vw;
-  align-items: flex-start;
+  text-justify: newspaper;
+  
   
 }
 
