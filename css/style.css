@@ -169,6 +169,16 @@ main {
   min-width: 350px;
 }
 
+.flex-container-blogg{
+ width: 60vw;
+
+
+}
+
+.flex-container-right {
+  float:right;
+  width: 40vw;
+}
 
 
 @media only screen and (min-width: 768px) {
