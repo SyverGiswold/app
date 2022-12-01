@@ -175,8 +175,6 @@ main {
  width: 60vw;
  align-items:space-between;
  
- 
-
 }
 
 .flex-container-right {
@@ -184,8 +182,6 @@ main {
   float:inline-start;
   width: 40vw;
   align-content: space-between;
-  
-  
   
 }
 
