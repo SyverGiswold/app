@@ -181,7 +181,7 @@ main {
   float:right;
   float:inline-start;
   width: 40vw;
-  align-content: space-between;
+  align-items: flex-start;
   
 }
 
