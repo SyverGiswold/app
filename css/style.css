@@ -413,9 +413,8 @@ border: none;
 color: #EBECE7;
 padding: 10px 20px;
 text-align: center;
-text-decoration: none;
 display: inline-block;
-font-size: 16px;
+font-size: 20px;
 margin-left: 85%;
 transition-duration: 0.4s;
 cursor: pointer;
@@ -424,6 +423,8 @@ cursor: pointer;
 .more-button:hover {
   background-color: #ede2da;
   color: #28221b;
+  border: #28221b;
+  border-style: solid;
 }
 
 
