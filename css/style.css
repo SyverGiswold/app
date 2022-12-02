@@ -445,35 +445,60 @@ cursor: pointer;
 }
 
 /*her starter CSS for footer*/
-.footerheader {
-  font-size: 20px;
+.footer_some {
+  display: flexbox;
+  flex-direction: column;
+}
 
+.someicons {
+  padding: 10px;
 }
-.footertext {
-  font-size: 16px;
+
+.footerlist_individual {
+  padding: 10px 0px 0px 0px;
 }
+
+.footertitle {
+  padding-bottom: 20px;
+}
+
 
 .footermain {
   background-color: #ede2da;
   width: 100%;
-  height: fit-content;
   border-style: inset;
   border: 1px solid #28221B;
 
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- align-items: flex-start;
- padding: 28px 34px 9px;
- gap: 116px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 35px 80px 0px 80px;
+
+  font-size: 16px;
+}
+
+.adressicon {
+  list-style-image: url(../assets/Place_Vector_icon.png);
+  padding: 15px 0px 0px 0px;
+}
+.phoneicon {
+  list-style-image: url(../assets/call_vector_icon.png);
+  padding: 15px 0px 0px 0px;
+  
+}
+.emailicon {
+  list-style-image: url(../assets/Mail_vector.png);
+  padding: 15px 0px 50px 0px;
 }
 
 .footer_absolute {
-  width: 100%;
-  height: fit-content;
-
+  padding: 15px 100px 0px 100px;
   display: flex;
-  justify-content: center;
-  
+  flex-direction: row;
+  justify-content:center;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
 
 }
