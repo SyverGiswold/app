@@ -445,9 +445,51 @@ cursor: pointer;
 }
 
 /*her starter CSS for footer*/
+
+.footermain {
+  background-color: #ede2da;
+  width: 100%;
+  border-style: inset;
+  border-top: 1px solid #28221B;
+  border-bottom: 1px solid #28221B;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 35px 80px 0px 80px;
+
+  font-size: 16px;
+}
+
 .footer_some {
   display: flexbox;
   flex-direction: column;
+}
+
+.paameldknapp {
+  background-color: #28221b;
+ border: #28221b solid;
+ color: #EBECE7;
+ text-align: center;
+ display: inline-block;
+ font-size: 20px;
+ padding: 5px;
+
+ transition-duration: 0.4s;
+ cursor: pointer;
+
+}
+
+.input {
+  width: 100px;
+  padding: 100px;
+  box-sizing: border-box;
+}
+.paameldknapp:hover {
+  background-color: #ede2da;
+  color: #28221b;
+  border: 0.5px solid #28221B;
 }
 
 .someicons {
@@ -460,22 +502,6 @@ cursor: pointer;
 
 .footertitle {
   padding-bottom: 20px;
-}
-
-
-.footermain {
-  background-color: #ede2da;
-  width: 100%;
-  border-style: inset;
-  border: 1px solid #28221B;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  padding: 35px 80px 0px 80px;
-
-  font-size: 16px;
 }
 
 .adressicon {
@@ -496,7 +522,7 @@ cursor: pointer;
   padding: 15px 100px 0px 100px;
   display: flex;
   flex-direction: row;
-  justify-content:center;
+  justify-content:space-between;
   align-items: flex-start;
   gap: 10px;
   font-size: 14px;
