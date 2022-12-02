@@ -468,7 +468,22 @@ cursor: pointer;
  gap: 116px;
 }
 
-.footer_content_1 {
-  display: inline-block;
+.footertext {
+  line
 }
-.parafooter
+
+.footer_absolute {
+  background-color;
+  width: 100%;
+  height: fit-content;
+  border-style: inset;
+  border: 1px solid #28221B;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 28px 34px 9px;
+  gap: 116px;
+
+}
