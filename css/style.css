@@ -385,7 +385,7 @@ p {
 
 .buy-button {
   background-color: #809DAE;
-  border: none;
+  border: solid #809DAE;
   color: #EBECE7;
   padding: 10px 50px;
   text-align: center;
