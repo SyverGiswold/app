@@ -167,24 +167,24 @@ main {
 }
 
 .inspirasjon-image {
-  width: 25vw;
   min-width: 350px;
 }
 
 .flex-container-blogg {
- width: 60vw;
- align-items:space-between;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
  text-align: start;
- text-justify: newspaper;
+ flex-direction: row;
+ justify-content: space-around;
 }
 
-.flex-container-right {
-  float:right;
-  float:inline-start;
-  width: 40vw;
-  text-justify: newspaper;
-  
-  
+.blogg-left {
+  width: 55vw;
+}
+
+.blogg-right {
+  width: 35vw;
 }
 
 
