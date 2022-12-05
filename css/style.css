@@ -36,6 +36,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 .desktop-header-flex-navigation h6:hover {
@@ -86,8 +87,13 @@ main {
   padding-top: 120px;
 }
 
-.hero-banner-image {
-  width: 100%;
+.about-us-section {
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
 }
 
 .frontpage-main-article {
@@ -305,6 +311,7 @@ main {
   li {
     list-style-type: none;
     padding: 17px;
+    transition-duration: 0.4s;
   }
 
   li:hover {
