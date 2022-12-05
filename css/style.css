@@ -172,13 +172,19 @@ main {
 
 .flex-container-blogg {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
  text-align: start;
  flex-direction: row;
  justify-content: space-around;
 }
 
+.flex-container-most-popular {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
 .blogg-left {
   width: 55vw;
 }
