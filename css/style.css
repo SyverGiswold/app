@@ -36,6 +36,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   cursor: pointer;
+  transition-duration: 0.4s;
 }
 
 .desktop-header-flex-navigation h6:hover {
@@ -86,8 +87,13 @@ main {
   padding-top: 120px;
 }
 
-.hero-banner-image {
-  width: 100%;
+.about-us-section {
+  width: 80%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
 }
 
 .frontpage-main-article {
@@ -174,13 +180,19 @@ main {
 
 .flex-container-blogg {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
  text-align: start;
  flex-direction: row;
  justify-content: space-around;
 }
 
+.flex-container-most-popular {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+}
 .blogg-left {
   width: 55vw;
 }
@@ -305,6 +317,7 @@ main {
   li {
     list-style-type: none;
     padding: 17px;
+    transition-duration: 0.4s;
   }
 
   li:hover {
@@ -433,11 +446,6 @@ p {
   justify-content: space-around;
 }
 
-.seating-image img {
-  width: 400px;
-  height: 400px;
-}
-
 
 .more-button {
 background-color: #28221b;
@@ -461,45 +469,107 @@ cursor: pointer;
 }
 
 /*her starter CSS for footer*/
-.footerheader {
-  font-size: 20px;
-
-}
-.footertext {
-  font-size: 16px;
-}
 
 .footermain {
   background-color: #ede2da;
   width: 100%;
-  height: fit-content;
   border-style: inset;
-  border: 1px solid #28221B;
-
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- align-items: flex-start;
- padding: 28px 34px 9px;
- gap: 116px;
-}
-
-.footertext {
-  line
-}
-
-.footer_absolute {
-  background-color;
-  width: 100%;
-  height: fit-content;
-  border-style: inset;
-  border: 1px solid #28221B;
+  border-top: 1px solid #28221B;
+  border-bottom: 1px solid #28221B;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  padding: 28px 34px 9px;
-  gap: 116px;
+  flex-wrap: wrap;
+  padding: 35px 100px 10px 100px;
+
+  font-size: 16px;
+}
+
+.footer_some, .footer_contact, .footer_kundeservice, .footer_sider {
+  padding: 30px;
+}
+
+.footer_some {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+
+.paameldknapp {
+  background-color: #28221b;
+  border: 0.5px solid #28221B;
+ color: #EBECE7;
+ display:flexbox;
+ font-size: 18px;
+ padding: 10px;
+
+ transition-duration: 0.2s;
+ cursor: pointer;
 
 }
+
+.paameldknapp:hover {
+  background-color: #ede2da;
+  color: #28221b;
+  border: 0.5px solid #28221B;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  border: 0.5px solid #28221B;
+  margin: 15px;
+}
+
+
+.someicons {
+  padding: 10px;
+}
+
+.footerlist_individual {
+  padding: 10px 0px 0px 0px;
+}
+
+.footertitle {
+  padding: 0px 10px 10px 0px
+}
+
+.adressicon {
+  list-style-image: url(../assets/Place_Vector_icon.png);
+  padding: 15px 0px 0px 0px;
+}
+.phoneicon {
+  list-style-image: url(../assets/call_vector_icon.png);
+  padding: 15px 0px 0px 0px;
+  
+}
+.emailicon {
+  list-style-image: url(../assets/Mail_vector.png);
+  padding: 15px 0px 20px 0px;
+}
+
+.footer_absolute {
+  padding: 15px 100px 0px 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 14px;
+
+}
+
+.leveringsalt {
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+  
