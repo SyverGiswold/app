@@ -237,12 +237,6 @@ main {
 
 .dato {
   margin-right: 100%;
-  
-  
-
- }
-.bloggtext {
-  
 }
 
 .hytte_1 {
@@ -654,18 +648,18 @@ input[type=text] {
 }
 
 .adressicon {
-  list-style-image: url(../assets/Place_Vector_icon.png);
+  list-style-image: url(../assets/Place_Vector_icon.svg);
   padding: 15px 0px 0px 0px;
 }
 
 .phoneicon {
-  list-style-image: url(../assets/call_vector_icon.png);
+  list-style-image: url(../assets/call_vector_icon.svg);
   padding: 15px 0px 0px 0px;
 
 }
 
 .emailicon {
-  list-style-image: url(../assets/Mail_vector.png);
+  list-style-image: url(../assets/Mail_vector.svg);
   padding: 15px 0px 20px 0px;
 }
 
