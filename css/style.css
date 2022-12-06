@@ -96,6 +96,11 @@ main {
   gap: 24px;
 }
 
+.velkommen-image {
+  width: 25vw;
+  min-width: 350px;
+}
+
 .frontpage-main-article {
   text-align: center;
 }
