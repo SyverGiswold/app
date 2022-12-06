@@ -227,9 +227,9 @@ main {
 
 }
 
-.ystolen {
+/*.ystolen {
   width: 400px;
-  height: 400px;
+  height: 400px;  virker som den wrapper bilde bedre med str i html
 }
 
 
@@ -241,7 +241,7 @@ main {
 .egget {
   width: 400px;
   height: 300px;
-}
+}*/
 
 .dato {
   margin-right: 100%;
