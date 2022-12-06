@@ -6,11 +6,14 @@
 }
 
 @media (prefers-reduced-motion) {
-    body, html {
-        scroll-behavior: unset!important;
+
+    body,
+    html {
+        scroll-behavior: unset !important;
     }
+
     * {
-       transition: 0.000001ms!important;
-       animation-duration: 0.000001ms!important;
+        transition: 0.000001ms !important;
+        animation-duration: 0.000001ms !important;
     }
 }

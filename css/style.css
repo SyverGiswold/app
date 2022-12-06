@@ -194,6 +194,7 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 .blogg-left {
   width: 55vw;
 }
@@ -202,7 +203,7 @@ main {
   width: 35vw;
 }
 
-.ystolen { 
+.ystolen {
   width: 400px;
   height: 400px;
 }
@@ -211,26 +212,26 @@ main {
 .jægerstolen {
   width: 400px;
   height: 400px;
- }
+}
 
- .egget { 
+.egget {
   width: 400px;
   height: 300px;
- }
+}
 
 .readmore-button {
   background-color: #28221b;
-border: #28221b solid;
-color: #EBECE7;
-padding: 10px 80px;
-text-align: center;
-display: inline-block;
-font-size: 20px;
-margin-left: 50%;
-margin-top: 50px;
-margin-bottom: 50px;
-transition-duration: 0.4s;
-cursor: pointer;
+  border: #28221b solid;
+  color: #EBECE7;
+  padding: 10px 80px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .readmore-button:hover {
@@ -251,19 +252,19 @@ cursor: pointer;
 
   body {
     background-color: #EDE2DA;
-    
+
   }
 
   .flex-container-blogg {
     flex-direction: column-reverse;
     margin-left: auto;
     margin-right: auto;
-   }
+  }
 
-   .blogg-left {
+  .blogg-left {
     width: 100vw;
   }
-  
+
   .blogg-right {
     width: 100vw;
   }
@@ -545,7 +546,10 @@ p {
   font-size: 16px;
 }
 
-.footer_some, .footer_contact, .footer_kundeservice, .footer_sider {
+.footer_some,
+.footer_contact,
+.footer_kundeservice,
+.footer_sider {
   padding: 30px;
 }
 
