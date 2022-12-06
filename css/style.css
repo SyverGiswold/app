@@ -96,6 +96,11 @@ main {
   gap: 24px;
 }
 
+.velkommen-image {
+  width: 25vw;
+  min-width: 350px;
+}
+
 .frontpage-main-article {
   text-align: center;
 }
@@ -639,4 +644,17 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+@media (min-width:780px) {
+  .footer_absolute {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  .leveringsalt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
