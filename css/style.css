@@ -642,7 +642,16 @@ footer {
   flex-wrap: wrap;
 }
 
-@media (min-width:780px) {
+@media (max-width:768px) {
+  .footer_absolute {
+  display: none;
+  }
+  .leveringsalt {
+  display: none;
+  }
+}
+
+@media (min-width:768px) {
   .footer_absolute {
   display: flex;
   flex-direction: row;
