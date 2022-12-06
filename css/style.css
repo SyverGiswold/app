@@ -184,9 +184,9 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
- text-align: start;
- flex-direction: row;
- justify-content: space-around;
+  text-align: start;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .flex-container-most-popular {
@@ -194,12 +194,29 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
 .blogg-left {
   width: 55vw;
 }
 
 .blogg-right {
   width: 35vw;
+}
+
+.ystolen {
+  width: 400px;
+  height: 400px;
+}
+
+
+.jægerstolen {
+  width: 400px;
+  height: 400px;
+}
+
+.egget {
+  width: 400px;
+  height: 300px;
 }
 
 .readmore-button {
@@ -235,12 +252,22 @@ cursor: pointer;
 
   body {
     background-color: #EDE2DA;
-    
+
   }
 
   .flex-container-blogg {
     flex-direction: column-reverse;
-   }
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .blogg-left {
+    width: 100vw;
+  }
+
+  .blogg-right {
+    width: 100vw;
+  }
 
   main {
     padding-top: 100px;
@@ -437,17 +464,17 @@ p {
   font-size: 20px;
   transition-duration: 0.4s;
   cursor: pointer;
-  }
+}
 
-  .buy-button:hover {
-    background-color: #ede2da;
-    color: #28221b;
-    border: #28221b;
-    border-style: solid;
-  }
+.buy-button:hover {
+  background-color: #ede2da;
+  color: #28221b;
+  border: #28221b;
+  border-style: solid;
+}
 
 .most-popular {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -476,17 +503,17 @@ p {
 
 
 .more-button {
-background-color: #28221b;
-border: #28221b solid;
-color: #EBECE7;
-padding: 10px 80px;
-text-align: center;
-display: inline-block;
-font-size: 20px;
-margin-left: 75%;
-margin-top: 50px;
-transition-duration: 0.4s;
-cursor: pointer;
+  background-color: #28221b;
+  border: #28221b solid;
+  color: #EBECE7;
+  padding: 10px 80px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 75%;
+  margin-top: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .more-button:hover {
@@ -519,7 +546,10 @@ cursor: pointer;
   font-size: 16px;
 }
 
-.footer_some, .footer_contact, .footer_kundeservice, .footer_sider {
+.footer_some,
+.footer_contact,
+.footer_kundeservice,
+.footer_sider {
   padding: 30px;
 }
 
@@ -534,13 +564,13 @@ cursor: pointer;
 .paameldknapp {
   background-color: #28221b;
   border: 0.5px solid #28221B;
- color: #EBECE7;
- display:flexbox;
- font-size: 18px;
- padding: 10px;
+  color: #EBECE7;
+  display: flexbox;
+  font-size: 18px;
+  padding: 10px;
 
- transition-duration: 0.2s;
- cursor: pointer;
+  transition-duration: 0.2s;
+  cursor: pointer;
 
 }
 
@@ -574,11 +604,13 @@ input[type=text] {
   list-style-image: url(../assets/Place_Vector_icon.png);
   padding: 15px 0px 0px 0px;
 }
+
 .phoneicon {
   list-style-image: url(../assets/call_vector_icon.png);
   padding: 15px 0px 0px 0px;
-  
+
 }
+
 .emailicon {
   list-style-image: url(../assets/Mail_vector.png);
   padding: 15px 0px 20px 0px;
@@ -588,7 +620,7 @@ input[type=text] {
   padding: 15px 100px 0px 100px;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: flex-start;
   gap: 10px;
   font-size: 14px;
@@ -604,4 +636,3 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
 }
-  
