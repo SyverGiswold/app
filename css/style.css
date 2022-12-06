@@ -193,7 +193,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
 }
 .blogg-left {
   width: 55vw;
@@ -203,20 +202,28 @@ main {
   width: 35vw;
 }
 
-.ystolen {
-  width: 400px;
-  height: 400px;
+.readmore-button {
+  background-color: #28221b;
+border: #28221b solid;
+color: #EBECE7;
+padding: 10px 80px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+margin-left: 50%;
+margin-top: 50px;
+margin-bottom: 50px;
+transition-duration: 0.4s;
+cursor: pointer;
 }
 
-.jægerstolen {
-  width: 400px;
-  height: 400px;
+.readmore-button:hover {
+  background-color: #ede2da;
+  color: #28221b;
+  border: #28221b;
+  border-style: solid;
 }
 
-.egget {
-  width: 400px;
-  height: 300px;
-}
 
 @media only screen and (min-width: 768px) {
   .phone-header {
