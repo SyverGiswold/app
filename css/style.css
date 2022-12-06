@@ -211,10 +211,12 @@ main {
 
 .blogg-left {
   width: 45vw;
+  margin-top: 100px;
 }
 
 .blogg-right {
   width: 35vw;
+  margin-top: 100px;
 }
 
 .ystolen {
