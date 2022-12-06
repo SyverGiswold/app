@@ -211,12 +211,14 @@ main {
 
 .blogg-left {
   width: 45vw;
-  margin-top: 100px;
+  margin-top: 33px;
+  
 }
 
 .blogg-right {
   width: 35vw;
-  margin-top: 100px;
+  margin-top: 50px;
+  
 }
 
 .ystolen {
@@ -257,7 +259,7 @@ main {
   background-color: #28221b;
   border: #28221b solid;
   color: #f0f0ed;
-  padding: 10px 80px;
+  padding: 10px 60px;
   text-align: center;
   display: inline-block;
   font-size: 20px;
@@ -266,6 +268,7 @@ main {
   margin-bottom: 50px;
   transition-duration: 0.4s;
   cursor: pointer;
+  
 }
 
 .readmore-button:hover {
