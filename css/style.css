@@ -178,21 +178,66 @@ main {
   min-width: 350px;
 }
 
+/*bloggside Start*/
+
 .flex-container-blogg {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   flex-direction: row;
   text-align: start;
   flex-direction: row;
   justify-content: space-around;
 }
 
+.flex-container-most-popular {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 .blogg-left {
   width: 55vw;
 }
 
 .blogg-right {
   width: 35vw;
+}
+
+.ystolen { 
+  width: 400px;
+  height: 400px;
+}
+
+
+.jægerstolen {
+  width: 400px;
+  height: 400px;
+ }
+
+ .egget { 
+  width: 400px;
+  height: 300px;
+ }
+
+.readmore-button {
+  background-color: #28221b;
+border: #28221b solid;
+color: #EBECE7;
+padding: 10px 80px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+margin-left: 50%;
+margin-top: 50px;
+margin-bottom: 50px;
+transition-duration: 0.4s;
+cursor: pointer;
+}
+
+.readmore-button:hover {
+  background-color: #ede2da;
+  color: #28221b;
+  border: #28221b;
+  border-style: solid;
 }
 
 
@@ -206,6 +251,21 @@ main {
 
   body {
     background-color: #EDE2DA;
+    
+  }
+
+  .flex-container-blogg {
+    flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .blogg-left {
+    width: 100vw;
+  }
+  
+  .blogg-right {
+    width: 100vw;
   }
 
   main {
@@ -387,8 +447,9 @@ h2 {
 }
 
 p {
-  padding: 10px 0px 50px 10px;
+  padding: 10px 0px 30px 10px;
 }
+
 
 .buy-button {
   background-color: #809DAE;
@@ -414,13 +475,23 @@ p {
 .most-popular {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.popular-image img {
+  width: 400px;
+  height: 400px;
 }
 
 .news {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.news-image img {
+  width: 400px;
+  height: 400px;
 }
 
 .seating {
@@ -451,6 +522,10 @@ p {
   border-style: solid;
 }
 
+.inspirasjon-gallery {
+  padding-bottom: 35px;
+}
+
 /*her starter CSS for footer*/
 
 .footermain {
@@ -464,9 +539,14 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
   padding: 35px 100px 10px 100px;
 
   font-size: 16px;
+}
+
+.footer_some, .footer_contact, .footer_kundeservice, .footer_sider {
+  padding: 30px;
 }
 
 .footer_some {
@@ -513,7 +593,7 @@ input[type=text] {
 }
 
 .footertitle {
-  padding-bottom: 20px;
+  padding: 0px 10px 10px 0px
 }
 
 .adressicon {
@@ -543,30 +623,15 @@ input[type=text] {
 
 }
 
-/* Chat Start https://codepen.io/bharatrpatil/pen/owNvoL */
-
-.fabs {
-  bottom: 0;
-  position: fixed;
-  margin: 1em;
-  right: 0;
-  z-index: 998;
+=======
+.leveringsalt {
+  margin: auto;
 }
 
-.fab {
-  display: block;
-  width: 56px;
-  height: 56px;
-  border-radius: 50%;
-  text-align: center;
-  color: #f0f0f0;
-  margin: 25px auto 0;
-  box-shadow: 0 0 4px rgba(0, 0, 0, .14), 0 4px 8px rgba(0, 0, 0, .28);
-  cursor: pointer;
-  -webkit-transition: all .1s ease-out;
-  transition: all .1s ease-out;
-  position: relative;
-  z-index: 998;
-  overflow: hidden;
-  background: #28221B;
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
+  
+>>>>>>> 02b419c8cc1ae47cd930f7394da9efc927cf3425
