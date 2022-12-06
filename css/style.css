@@ -468,6 +468,10 @@ cursor: pointer;
   border-style: solid;
 }
 
+.inspirasjon-gallery {
+  padding-bottom: 35px;
+}
+
 /*her starter CSS for footer*/
 
 .footermain {
