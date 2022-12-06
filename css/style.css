@@ -221,6 +221,12 @@ main {
   
 }
 
+.blogg-bilde-1 {
+  display: wrap;
+  flex-wrap: wrap;
+
+}
+
 .ystolen {
   width: 400px;
   height: 400px;
