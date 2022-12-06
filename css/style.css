@@ -7,6 +7,14 @@ a {
   text-decoration: none;
 }
 
+img {
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 5px;
+}
+
 /* Desktop header start */
 .desktop-header {
   position: fixed;
@@ -222,6 +230,10 @@ main {
 .egget {
   width: 400px;
   height: 300px;
+}
+
+.bigger {
+  font-weight: 600;
 }
 
 .readmore-button {
@@ -646,7 +658,17 @@ footer {
   flex-wrap: wrap;
 }
 
-@media (min-width:780px) {
+@media (max-width:768px) {
+  .footer_absolute {
+  display: none;
+  }
+  .leveringsalt {
+  display: none;
+  }
+
+}
+
+@media (min-width:768px) {
   .footer_absolute {
   display: flex;
   flex-direction: row;
@@ -656,5 +678,11 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .footer_absolute_icons_phone {
+    display: none;
+  }
+  .footer_absolute_info_phone {
+    display: none;
   }
 }
