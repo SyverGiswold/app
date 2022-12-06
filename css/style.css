@@ -184,6 +184,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  text-align: start;
   flex-direction: row;
   justify-content: space-around;
 }
@@ -462,17 +463,17 @@ p {
   font-size: 20px;
   transition-duration: 0.4s;
   cursor: pointer;
-  }
+}
 
-  .buy-button:hover {
-    background-color: #ede2da;
-    color: #28221b;
-    border: #28221b;
-    border-style: solid;
-  }
+.buy-button:hover {
+  background-color: #ede2da;
+  color: #28221b;
+  border: #28221b;
+  border-style: solid;
+}
 
 .most-popular {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -501,17 +502,17 @@ p {
 
 
 .more-button {
-background-color: #28221b;
-border: #28221b solid;
-color: #EBECE7;
-padding: 10px 80px;
-text-align: center;
-display: inline-block;
-font-size: 20px;
-margin-left: 75%;
-margin-top: 50px;
-transition-duration: 0.4s;
-cursor: pointer;
+  background-color: #28221b;
+  border: #28221b solid;
+  color: #EBECE7;
+  padding: 10px 80px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 75%;
+  margin-top: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .more-button:hover {
@@ -559,13 +560,13 @@ cursor: pointer;
 .paameldknapp {
   background-color: #28221b;
   border: 0.5px solid #28221B;
- color: #EBECE7;
- display:flexbox;
- font-size: 18px;
- padding: 10px;
+  color: #EBECE7;
+  display: flexbox;
+  font-size: 18px;
+  padding: 10px;
 
- transition-duration: 0.2s;
- cursor: pointer;
+  transition-duration: 0.2s;
+  cursor: pointer;
 
 }
 
@@ -599,11 +600,13 @@ input[type=text] {
   list-style-image: url(../assets/Place_Vector_icon.png);
   padding: 15px 0px 0px 0px;
 }
+
 .phoneicon {
   list-style-image: url(../assets/call_vector_icon.png);
   padding: 15px 0px 0px 0px;
-  
+
 }
+
 .emailicon {
   list-style-image: url(../assets/Mail_vector.png);
   padding: 15px 0px 20px 0px;
@@ -613,13 +616,14 @@ input[type=text] {
   padding: 15px 100px 0px 100px;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: flex-start;
   gap: 10px;
   font-size: 14px;
 
 }
 
+=======
 .leveringsalt {
   margin: auto;
 }
@@ -630,3 +634,4 @@ footer {
   flex-wrap: wrap;
 }
   
+>>>>>>> 02b419c8cc1ae47cd930f7394da9efc927cf3425
