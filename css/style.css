@@ -184,9 +184,8 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
- text-align: start;
- flex-direction: row;
- justify-content: space-around;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .flex-container-most-popular {
@@ -201,6 +200,22 @@ main {
 .blogg-right {
   width: 35vw;
 }
+
+.ystolen { 
+  width: 400px;
+  height: 400px;
+}
+
+
+.jægerstolen {
+  width: 400px;
+  height: 400px;
+ }
+
+ .egget { 
+  width: 400px;
+  height: 300px;
+ }
 
 .readmore-button {
   background-color: #28221b;
@@ -240,7 +255,17 @@ cursor: pointer;
 
   .flex-container-blogg {
     flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
    }
+
+   .blogg-left {
+    width: 100vw;
+  }
+  
+  .blogg-right {
+    width: 100vw;
+  }
 
   main {
     padding-top: 100px;
