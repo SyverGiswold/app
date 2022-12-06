@@ -275,7 +275,6 @@ main {
   border-style: solid;
 }
 
-
 @media only screen and (min-width: 768px) {
   .phone-header {
     display: none;
