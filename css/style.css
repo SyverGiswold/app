@@ -102,11 +102,12 @@ main {
   margin-left: auto;
   margin-right: auto;
   gap: 24px;
+  justify-content: space-around;
 }
 
 .velkommen-image {
-  width: 25vw;
-  min-width: 350px;
+  align-self: center;
+  width: 50vw;
 }
 
 .frontpage-main-article {
@@ -209,7 +210,7 @@ main {
 }
 
 .blogg-left {
-  width: 55vw;
+  width: 45vw;
 }
 
 .blogg-right {
@@ -232,23 +233,35 @@ main {
   height: 300px;
 }
 
+.dato {
+  margin-right: 100%;
+  
+  
+
+ }
+.bloggtext {
+  
+}
+
+
+
 .bigger {
   font-weight: 600;
 }
 
 .readmore-button {
-background-color: #28221b;
-border: #28221b solid;
-color: #EBECE7;
-padding: 10px 80px;
-text-align: center;
-display: inline-block;
-font-size: 20px;
-margin-left: 50%;
-margin-top: 50px;
-margin-bottom: 50px;
-transition-duration: 0.4s;
-cursor: pointer;
+  background-color: #28221b;
+  border: #28221b solid;
+  color: #EBECE7;
+  padding: 10px 80px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .readmore-button:hover {
@@ -397,6 +410,15 @@ cursor: pointer;
   }
 
   /* Phone hedaer end */
+
+  .about-us-section {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .velkommen-image {
+    width: 80vw;
+  }
 
   .møbelhistorie-article-1 {
     background-color: #809DAE;
@@ -660,28 +682,41 @@ footer {
 
 @media (max-width:768px) {
   .footer_absolute {
-  display: none;
-  }
-  .leveringsalt {
-  display: none;
+    display: none;
   }
 
+  .leveringsalt {
+    display: none;
+  }
+
+  .footer_absolute_icons_phone {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer_absolute_info_phone {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 @media (min-width:768px) {
   .footer_absolute {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+
   .leveringsalt {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
   }
+
   .footer_absolute_icons_phone {
     display: none;
   }
+
   .footer_absolute_info_phone {
     display: none;
   }
