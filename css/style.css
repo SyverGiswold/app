@@ -96,6 +96,11 @@ main {
   gap: 24px;
 }
 
+.velkommen-image {
+  width: 25vw;
+  min-width: 350px;
+}
+
 .frontpage-main-article {
   text-align: center;
 }
@@ -505,6 +510,10 @@ p {
   justify-content: space-around;
 }
 
+.seating-image img {
+  width: 400px;
+  height: 400px;
+}
 
 .more-button {
   background-color: #28221b;
@@ -639,4 +648,26 @@ footer {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+@media (max-width:768px) {
+  .footer_absolute {
+  display: none;
+  }
+  .leveringsalt {
+  display: none;
+  }
+}
+
+@media (min-width:768px) {
+  .footer_absolute {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  }
+  .leveringsalt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
