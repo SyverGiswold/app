@@ -501,6 +501,10 @@ p {
   justify-content: space-around;
 }
 
+.seating-image img {
+  width: 400px;
+  height: 400px;
+}
 
 .more-button {
   background-color: #28221b;
