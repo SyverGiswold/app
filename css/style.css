@@ -178,6 +178,8 @@ main {
   min-width: 350px;
 }
 
+/*bloggside Start*/
+
 .flex-container-blogg {
   display: flex;
   flex-wrap: wrap;
@@ -233,7 +235,12 @@ cursor: pointer;
 
   body {
     background-color: #EDE2DA;
+    
   }
+
+  .flex-container-blogg {
+    flex-direction: column-reverse;
+   }
 
   main {
     padding-top: 100px;
