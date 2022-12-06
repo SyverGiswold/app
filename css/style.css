@@ -283,6 +283,7 @@ main {
   border: #28221b;
   border-style: solid;
 }
+/*bloggside end*/
 
 @media only screen and (min-width: 768px) {
   .phone-header {
