@@ -178,6 +178,8 @@ main {
   min-width: 350px;
 }
 
+/*bloggside Start*/
+
 .flex-container-blogg {
   display: flex;
   flex-wrap: wrap;
@@ -201,6 +203,20 @@ main {
   width: 35vw;
 }
 
+.ystolen {
+  width: 400px;
+  height: 400px;
+}
+
+.jægerstolen {
+  width: 400px;
+  height: 400px;
+}
+
+.egget {
+  width: 400px;
+  height: 300px;
+}
 
 @media only screen and (min-width: 768px) {
   .phone-header {
@@ -212,7 +228,12 @@ main {
 
   body {
     background-color: #EDE2DA;
+    
   }
+
+  .flex-container-blogg {
+    flex-direction: column-reverse;
+   }
 
   main {
     padding-top: 100px;
