@@ -219,6 +219,10 @@ main {
   height: 300px;
 }
 
+.bigger {
+  font-weight: 600;
+}
+
 .readmore-button {
 background-color: #28221b;
 border: #28221b solid;
