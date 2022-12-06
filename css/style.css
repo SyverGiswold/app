@@ -1,5 +1,5 @@
 body {
-  background-color: #EBECE7;
+  background-color: #f0f0ed;
 }
 
 a {
@@ -147,8 +147,8 @@ main {
 }
 
 .panton-chair-image {
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   align-self: center;
 }
 
@@ -159,6 +159,7 @@ main {
   display: flex;
   padding-left: 5%;
   padding-top: 5%;
+  padding-right: 15%;
   padding-bottom: 5%;
   margin-bottom: 34px;
   justify-content: space-between;
@@ -166,12 +167,11 @@ main {
 
 .syveren-chair-article {
   justify-content: center;
-  padding-right: 15%;
 }
 
 .syveren-chair-image {
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   width: 100%;
   align-self: center;
 
@@ -243,7 +243,15 @@ main {
   
 }
 
+.hytte_1 {
+  margin: 10px 10px 30px 10px;
+  border-radius: 5px;
+}
 
+.hytte_2 {
+  margin: 10px 10px 30px 10px;
+  border-radius: 5px;
+}
 
 .bigger {
   font-weight: 600;
@@ -252,7 +260,7 @@ main {
 .readmore-button {
   background-color: #28221b;
   border: #28221b solid;
-  color: #EBECE7;
+  color: #f0f0ed;
   padding: 10px 80px;
   text-align: center;
   display: inline-block;
@@ -301,7 +309,7 @@ main {
 
   main {
     padding-top: 100px;
-    background-color: #EBECE7;
+    background-color: #f0f0ed;
   }
 
   a {
@@ -494,7 +502,7 @@ p {
 .buy-button {
   background-color: #809DAE;
   border: solid #809DAE;
-  color: #EBECE7;
+  color: #f0f0ed;
   padding: 10px 50px;
   text-align: center;
   display: inline-block;
@@ -548,7 +556,7 @@ p {
 .more-button {
   background-color: #28221b;
   border: #28221b solid;
-  color: #EBECE7;
+  color: #f0f0ed;
   padding: 10px 80px;
   text-align: center;
   display: inline-block;
@@ -607,7 +615,7 @@ p {
 .paameldknapp {
   background-color: #28221b;
   border: 0.5px solid #28221B;
-  color: #EBECE7;
+  color: #f0f0ed;
   display: flexbox;
   font-size: 18px;
   padding: 10px;
