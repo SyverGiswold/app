@@ -393,8 +393,9 @@ h2 {
 }
 
 p {
-  padding: 10px 0px 50px 10px;
+  padding: 10px 0px 30px 10px;
 }
+
 
 .buy-button {
   background-color: #809DAE;
@@ -420,7 +421,12 @@ p {
 .most-popular {
   display: flex; 
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.popular-image img {
+  width: 400px;
+  height: 400px;
 }
 
 .news {
@@ -429,14 +435,15 @@ p {
   justify-content: space-around;
 }
 
+.news-image img {
+  width: 400px;
+  height: 400px;
+}
+
 .seating {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-}
-
-.inspirasjon-gallery {
-  padding-bottom: 35px;
 }
 
 
