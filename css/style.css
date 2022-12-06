@@ -302,6 +302,10 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
+  .readmore-button {
+    max-width: 40%;
+    font-size: 15px;
+  }
 
   .blogg-left {
     width: 100vw;
