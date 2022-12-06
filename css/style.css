@@ -7,6 +7,14 @@ a {
   text-decoration: none;
 }
 
+img {
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 5px;
+}
+
 /* Desktop header start */
 .desktop-header {
   position: fixed;
@@ -657,6 +665,7 @@ footer {
   .leveringsalt {
   display: none;
   }
+
 }
 
 @media (min-width:768px) {
@@ -669,5 +678,11 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+  }
+  .footer_absolute_icons_phone {
+    display: none;
+  }
+  .footer_absolute_info_phone {
+    display: none;
   }
 }
