@@ -213,16 +213,16 @@ main {
 .blogg-left {
   width: 45vw;
   margin-top: 33px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
 
 .blogg-right {
   width: 35vw;
   margin-top: 50px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
 
 }
 
@@ -267,11 +267,15 @@ main {
 .bloggtext {
   line-height: 135%;
   width: 45vw;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .blogg {
   line-height: 135%;
   width: 35vw;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .readmore-button {
@@ -337,6 +341,7 @@ main {
 
   .blogg { 
     width: 90vw;
+    
   }
   .bloggtext { 
     width: 90vw;
@@ -351,14 +356,15 @@ main {
   .readmore-button {
     max-width: 40%;
     font-size: 15px;
+    
   }
 
   .blogg-left {
-    width: 100vw;
+    width: 90vw;
   }
 
   .blogg-right {
-    width: 100vw;
+    width: 90vw;
   }
 
   .ystolen {
