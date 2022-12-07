@@ -208,11 +208,7 @@ main {
   justify-content: space-around;
 }
 
-.flex-container-most-popular {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
+
 
 .blogg-left {
   width: 45vw;
