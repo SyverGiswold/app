@@ -35,7 +35,6 @@ button {
 }
 
 .desktop-produkter-button {
-  background-color: #ede2da;
   margin-bottom: 35%;
   margin-top: 35%;
 }
@@ -69,9 +68,11 @@ button {
   border-bottom: 1px solid;
 }
 
-#header-dropdown:hover #header-dropdown-content {
+#header-dropdown:is(:hover, :focus-within) #header-dropdown-content {
   display: flex;
 }
+
+
 
 ul {
   float: left;
@@ -192,6 +193,10 @@ main {
   min-width: 350px;
 }
 
+.inspirasjon-gallery {
+  padding-bottom: 35px;
+}
+
 /*bloggside Start*/
 
 .flex-container-blogg {
@@ -212,13 +217,13 @@ main {
 .blogg-left {
   width: 45vw;
   margin-top: 33px;
-  
+
 }
 
 .blogg-right {
   width: 35vw;
   margin-top: 50px;
-  
+
 }
 
 .blogg-bilde-1 {
@@ -283,7 +288,7 @@ main {
   margin-bottom: 50px;
   transition-duration: 0.4s;
   cursor: pointer;
-  
+
 }
 
 .readmore-button:hover {
@@ -292,7 +297,19 @@ main {
   border: #28221b;
   border-style: solid;
 }
+
 /*bloggside end*/
+
+@media only screen and (max-width: 1024px) {
+  #desktop-header-logo {
+    height: 60px;
+    margin: 17px 0px 17px 0px;
+  }
+
+  .desktop-header {
+    padding: 0px 14px 0px 14px;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .phone-header {
@@ -312,6 +329,7 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
+
   .readmore-button {
     max-width: 40%;
     font-size: 15px;
@@ -506,7 +524,7 @@ main {
   }
 }
 
-/*her starter CSS for produktside*/
+/*her starter CSS for produktside_Linnea*/
 
 h2 {
   margin: 30px 0px 20px 85px;
@@ -515,7 +533,6 @@ h2 {
 p {
   padding: 10px 0px 30px 10px;
 }
-
 
 .buy-button {
   background-color: #809DAE;
@@ -573,18 +590,18 @@ p {
 
 
 .more-button {
-background-color: #28221b;
-border: #28221b solid;
-color: #EBECE7;
-padding: 10px 80px;
-text-align: center;
-display: inline-block;
-font-size: 20px;
-margin-left: 75%;
-margin-top: 50px;
-margin-bottom: 100px;
-transition-duration: 0.4s;
-cursor: pointer;
+  background-color: #28221b;
+  border: #28221b solid;
+  color: #EBECE7;
+  padding: 10px 80px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 75%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .more-button:hover {
@@ -594,9 +611,8 @@ cursor: pointer;
   border-style: solid;
 }
 
-.inspirasjon-gallery {
-  padding-bottom: 35px;
-}
+
+/*her slutter css for produktside_Linnea*/
 
 /*her starter CSS for footer*/
 
