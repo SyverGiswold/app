@@ -213,16 +213,16 @@ main {
 .blogg-left {
   width: 45vw;
   margin-top: 33px;
-  padding-left: 10px;
-  padding-right: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
 
 }
 
 .blogg-right {
   width: 35vw;
   margin-top: 50px;
-  padding-left: 10px;
-  padding-right: 10px;
+  /*padding-left: 10px;
+  padding-right: 10px;*/
 
 }
 
@@ -233,16 +233,16 @@ main {
 }
 
 .ystolen {
-  width: 35vw;
+  width: 30vw;
 }
 
 
 .jægerstolen {
-  width: 35vw;
+  width: 30vw;
 }
 
 .egget {
-  width: 35vw;
+  width: 30vw;
 }
 
 .dato {
@@ -266,14 +266,14 @@ main {
 
 .bloggtext {
   line-height: 135%;
-  width: 45vw;
+  width: 40vw;
   padding-left: 10px;
   padding-right: 10px;
 }
 
 .blogg {
   line-height: 135%;
-  width: 35vw;
+  width: 30vw;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -368,16 +368,16 @@ main {
   }
 
   .ystolen {
-    width: 90vw;
+    width: 85vw;
   }
   
   
   .jægerstolen {
-    width: 90vw;
+    width: 85vw;
   }
   
   .egget {
-    width: 90vw;
+    width: 85vw;
   }
 
   main {
