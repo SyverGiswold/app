@@ -446,6 +446,11 @@ p {
   justify-content: space-around;
 }
 
+.seating-image img {
+  width: 400px;
+  height: 400px;
+}
+
 
 .more-button {
 background-color: #28221b;
@@ -457,6 +462,7 @@ display: inline-block;
 font-size: 20px;
 margin-left: 75%;
 margin-top: 50px;
+margin-bottom: 100px;
 transition-duration: 0.4s;
 cursor: pointer;
 }
