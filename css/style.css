@@ -497,6 +497,7 @@ main {
     display: flex;
     padding-top: 5%;
     padding-bottom: 5%;
+    padding-left: 0;
     padding-right: 0;
     margin-left: 0;
     margin-bottom: 68px;
@@ -600,7 +601,6 @@ p {
   text-align: center;
   display: inline-block;
   font-size: 20px;
-  margin-left: 75%;
   margin-top: 50px;
   margin-bottom: 50px;
   transition-duration: 0.4s;
@@ -612,6 +612,13 @@ p {
   color: #28221b;
   border: #28221b;
   border-style: solid;
+}
+
+.more-button-align {
+  margin-right: 50px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: end;
 }
 
 
@@ -744,6 +751,11 @@ footer {
   .footer_absolute_info_phone {
     display: flex;
     justify-content: space-around;
+  }
+
+  .more-button-align {
+    display: flex;
+    justify-content: center;
   }
 }
 
