@@ -73,6 +73,10 @@ button {
   display: flex;
 }
 
+.desktop-header-flex-navigation:focus-within #header-dropdown-content {
+  display: flex;
+}
+
 ul {
   float: left;
 }
