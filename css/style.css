@@ -1,10 +1,18 @@
 body {
-  background-color: #EBECE7;
+  background-color: #f0f0ed;
 }
 
 a {
   color: #28221b;
   text-decoration: none;
+}
+
+img {
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 5px;
 }
 
 /* Desktop header start */
@@ -94,6 +102,12 @@ main {
   margin-left: auto;
   margin-right: auto;
   gap: 24px;
+  justify-content: space-around;
+}
+
+.velkommen-image {
+  align-self: center;
+  width: 50vw;
 }
 
 .frontpage-main-article {
@@ -133,8 +147,8 @@ main {
 }
 
 .panton-chair-image {
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   align-self: center;
 }
 
@@ -145,6 +159,7 @@ main {
   display: flex;
   padding-left: 5%;
   padding-top: 5%;
+  padding-right: 15%;
   padding-bottom: 5%;
   margin-bottom: 34px;
   justify-content: space-between;
@@ -152,12 +167,11 @@ main {
 
 .syveren-chair-article {
   justify-content: center;
-  padding-right: 15%;
 }
 
 .syveren-chair-image {
-  padding-left: 5%;
-  padding-right: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
   width: 100%;
   align-self: center;
 
@@ -178,29 +192,98 @@ main {
   min-width: 350px;
 }
 
+/*bloggside Start*/
+
 .flex-container-blogg {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
- text-align: start;
- flex-direction: row;
- justify-content: space-around;
+  text-align: start;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .flex-container-most-popular {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-
 }
+
 .blogg-left {
-  width: 55vw;
+  width: 45vw;
+  margin-top: 33px;
+  
 }
 
 .blogg-right {
   width: 35vw;
+  margin-top: 50px;
+  
 }
 
+.blogg-bilde-1 {
+  display: wrap;
+  flex-wrap: wrap;
+
+}
+
+/*.ystolen {
+  width: 400px;
+  height: 400px;  virker som den wrapper bilde bedre med str i html
+}
+
+
+.jægerstolen {
+  width: 400px;
+  height: 400px;
+}
+
+.egget {
+  width: 400px;
+  height: 300px;
+}*/
+
+.dato {
+  margin-right: 100%;
+}
+
+.hytte_1 {
+  margin: 10px 10px 30px 10px;
+  border-radius: 5px;
+}
+
+.hytte_2 {
+  margin: 10px 10px 30px 10px;
+  border-radius: 5px;
+}
+
+.bigger {
+  font-weight: 600;
+}
+
+.readmore-button {
+  background-color: #28221b;
+  border: #28221b solid;
+  color: #f0f0ed;
+  padding: 10px 60px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  
+}
+
+.readmore-button:hover {
+  background-color: #ede2da;
+  color: #28221b;
+  border: #28221b;
+  border-style: solid;
+}
+/*bloggside end*/
 
 @media only screen and (min-width: 768px) {
   .phone-header {
@@ -212,11 +295,30 @@ main {
 
   body {
     background-color: #EDE2DA;
+
+  }
+
+  .flex-container-blogg {
+    flex-direction: column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .readmore-button {
+    max-width: 40%;
+    font-size: 15px;
+  }
+
+  .blogg-left {
+    width: 100vw;
+  }
+
+  .blogg-right {
+    width: 100vw;
   }
 
   main {
     padding-top: 100px;
-    background-color: #EBECE7;
+    background-color: #f0f0ed;
   }
 
   a {
@@ -326,6 +428,15 @@ main {
 
   /* Phone hedaer end */
 
+  .about-us-section {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  .velkommen-image {
+    width: 80vw;
+  }
+
   .møbelhistorie-article-1 {
     background-color: #809DAE;
     text-align: left;
@@ -400,7 +511,7 @@ p {
 .buy-button {
   background-color: #809DAE;
   border: solid #809DAE;
-  color: #EBECE7;
+  color: #f0f0ed;
   padding: 10px 50px;
   text-align: center;
   display: inline-block;
@@ -409,17 +520,17 @@ p {
   font-size: 20px;
   transition-duration: 0.4s;
   cursor: pointer;
-  }
+}
 
-  .buy-button:hover {
-    background-color: #ede2da;
-    color: #28221b;
-    border: #28221b;
-    border-style: solid;
-  }
+.buy-button:hover {
+  background-color: #ede2da;
+  color: #28221b;
+  border: #28221b;
+  border-style: solid;
+}
 
 .most-popular {
-  display: flex; 
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -474,6 +585,10 @@ cursor: pointer;
   border-style: solid;
 }
 
+.inspirasjon-gallery {
+  padding-bottom: 35px;
+}
+
 /*her starter CSS for footer*/
 
 .footermain {
@@ -493,7 +608,10 @@ cursor: pointer;
   font-size: 16px;
 }
 
-.footer_some, .footer_contact, .footer_kundeservice, .footer_sider {
+.footer_some,
+.footer_contact,
+.footer_kundeservice,
+.footer_sider {
   padding: 30px;
 }
 
@@ -508,13 +626,13 @@ cursor: pointer;
 .paameldknapp {
   background-color: #28221b;
   border: 0.5px solid #28221B;
- color: #EBECE7;
- display:flexbox;
- font-size: 18px;
- padding: 10px;
+  color: #f0f0ed;
+  display: flexbox;
+  font-size: 18px;
+  padding: 10px;
 
- transition-duration: 0.2s;
- cursor: pointer;
+  transition-duration: 0.2s;
+  cursor: pointer;
 
 }
 
@@ -545,16 +663,18 @@ input[type=text] {
 }
 
 .adressicon {
-  list-style-image: url(../assets/Place_Vector_icon.png);
+  list-style-image: url(../assets/Place_Vector_icon.svg);
   padding: 15px 0px 0px 0px;
 }
+
 .phoneicon {
-  list-style-image: url(../assets/call_vector_icon.png);
+  list-style-image: url(../assets/call_vector_icon.svg);
   padding: 15px 0px 0px 0px;
-  
+
 }
+
 .emailicon {
-  list-style-image: url(../assets/Mail_vector.png);
+  list-style-image: url(../assets/Mail_vector.svg);
   padding: 15px 0px 20px 0px;
 }
 
@@ -562,7 +682,7 @@ input[type=text] {
   padding: 15px 100px 0px 100px;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: flex-start;
   gap: 10px;
   font-size: 14px;
@@ -578,4 +698,45 @@ footer {
   flex-direction: column;
   flex-wrap: wrap;
 }
-  
+
+@media (max-width:768px) {
+  .footer_absolute {
+    display: none;
+  }
+
+  .leveringsalt {
+    display: none;
+  }
+
+  .footer_absolute_icons_phone {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .footer_absolute_info_phone {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+@media (min-width:768px) {
+  .footer_absolute {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .leveringsalt {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .footer_absolute_icons_phone {
+    display: none;
+  }
+
+  .footer_absolute_info_phone {
+    display: none;
+  }
+}
