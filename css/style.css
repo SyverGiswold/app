@@ -486,7 +486,9 @@ main {
   .panton-chair-image {
     margin-left: auto;
     margin-right: auto;
-    width: 90vw;
+    height: 100%;
+    width: 100%;
+    max-width: 80vw;
   }
 
   .møbelhistorie-article-2 {
@@ -515,8 +517,9 @@ main {
     margin-right: auto;
     height: 100%;
     width: 100%;
-    max-width: 90vw;
+    max-width: 80vw;
   }
+  
 
 
   .desktop-header {
