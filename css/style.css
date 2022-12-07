@@ -35,7 +35,6 @@ button {
 }
 
 .desktop-produkter-button {
-  background-color: #ede2da;
   margin-bottom: 35%;
   margin-top: 35%;
 }
@@ -69,9 +68,11 @@ button {
   border-bottom: 1px solid;
 }
 
-#header-dropdown:hover #header-dropdown-content {
+#header-dropdown:is(:hover, :focus-within) #header-dropdown-content {
   display: flex;
 }
+
+
 
 ul {
   float: left;
