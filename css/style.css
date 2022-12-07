@@ -296,6 +296,17 @@ main {
 
 /*bloggside end*/
 
+@media only screen and (max-width: 1024px) {
+  #desktop-header-logo {
+    height: 60px;
+    margin: 17px 0px 17px 0px;
+  }
+
+  .desktop-header {
+    padding: 0px 14px 0px 14px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .phone-header {
     display: none;
