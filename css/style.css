@@ -232,21 +232,18 @@ main {
 
 }
 
-/*.ystolen {
-  width: 400px;
-  height: 400px;  virker som den wrapper bilde bedre med str i html
+.ystolen {
+  width: 35vw;
 }
 
 
 .jægerstolen {
-  width: 400px;
-  height: 400px;
+  width: 35vw;
 }
 
 .egget {
-  width: 400px;
-  height: 300px;
-}*/
+  width: 35vw;
+}
 
 .dato {
   margin-right: 100%;
