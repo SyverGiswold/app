@@ -266,6 +266,7 @@ main {
 
 .bloggtext {
   line-height: 135%;
+  width: 45vw;
 }
 
 .blogg {
@@ -335,6 +336,9 @@ main {
   }
 
   .blogg { 
+    width: 90vw;
+  }
+  .bloggtext { 
     width: 90vw;
   }
 
