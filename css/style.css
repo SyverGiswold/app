@@ -69,13 +69,11 @@ button {
   border-bottom: 1px solid;
 }
 
-#header-dropdown:hover #header-dropdown-content {
+#header-dropdown:is(:hover, :focus-within) #header-dropdown-content {
   display: flex;
 }
 
-.desktop-header-flex-navigation:focus-within #header-dropdown-content {
-  display: flex;
-}
+
 
 ul {
   float: left;
