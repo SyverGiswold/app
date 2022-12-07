@@ -245,6 +245,7 @@ main {
 
 .dato {
   margin-right: 100%;
+  font-weight: 600;
 }
 
 .hytte_1 {
@@ -259,6 +260,14 @@ main {
 
 .bigger {
   font-weight: 600;
+}
+
+.bloggtext {
+  line-height: 135%;
+}
+
+.blogg {
+  line-height: 135%;
 }
 
 .readmore-button {
