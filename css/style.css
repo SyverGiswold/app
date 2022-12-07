@@ -266,10 +266,12 @@ main {
 
 .bloggtext {
   line-height: 135%;
+  width: 45vw;
 }
 
 .blogg {
   line-height: 135%;
+  width: 35vw;
 }
 
 .readmore-button {
@@ -328,7 +330,16 @@ main {
 
   body {
     background-color: #EDE2DA;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
+  }
+
+  .blogg { 
+    width: 90vw;
+  }
+  .bloggtext { 
+    width: 90vw;
   }
 
   .flex-container-blogg {
