@@ -215,17 +215,25 @@ main {
 
 .blogg-left {
   width: 45vw;
-  margin-top: 100px;
+  margin-top: 33px;
+  
 }
 
 .blogg-right {
   width: 35vw;
-  margin-top: 100px;
+  margin-top: 50px;
+  
 }
 
-.ystolen {
+.blogg-bilde-1 {
+  display: wrap;
+  flex-wrap: wrap;
+
+}
+
+/*.ystolen {
   width: 400px;
-  height: 400px;
+  height: 400px;  virker som den wrapper bilde bedre med str i html
 }
 
 
@@ -237,10 +245,11 @@ main {
 .egget {
   width: 400px;
   height: 300px;
-}
+}*/
 
 .dato {
   margin-right: 100%;
+  font-weight: 600;
 }
 
 .hytte_1 {
@@ -257,11 +266,19 @@ main {
   font-weight: 600;
 }
 
+.bloggtext {
+  line-height: 135%;
+}
+
+.blogg {
+  line-height: 135%;
+}
+
 .readmore-button {
   background-color: #28221b;
   border: #28221b solid;
   color: #f0f0ed;
-  padding: 10px 80px;
+  padding: 10px 60px;
   text-align: center;
   display: inline-block;
   font-size: 20px;
@@ -270,6 +287,7 @@ main {
   margin-bottom: 50px;
   transition-duration: 0.4s;
   cursor: pointer;
+  
 }
 
 .readmore-button:hover {
@@ -278,7 +296,7 @@ main {
   border: #28221b;
   border-style: solid;
 }
-
+/*bloggside end*/
 
 @media only screen and (min-width: 768px) {
   .phone-header {
@@ -297,6 +315,10 @@ main {
     flex-direction: column-reverse;
     margin-left: auto;
     margin-right: auto;
+  }
+  .readmore-button {
+    max-width: 40%;
+    font-size: 15px;
   }
 
   .blogg-left {
@@ -488,7 +510,7 @@ main {
   }
 }
 
-/*her starter CSS for produktside*/
+/*her starter CSS for produktside_Linnea*/
 
 h2 {
   margin: 30px 0px 20px 85px;
@@ -497,7 +519,6 @@ h2 {
 p {
   padding: 10px 0px 30px 10px;
 }
-
 
 .buy-button {
   background-color: #809DAE;
@@ -553,18 +574,20 @@ p {
   height: 400px;
 }
 
+
 .more-button {
-  background-color: #28221b;
-  border: #28221b solid;
-  color: #f0f0ed;
-  padding: 10px 80px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
-  margin-left: 75%;
-  margin-top: 50px;
-  transition-duration: 0.4s;
-  cursor: pointer;
+background-color: #28221b;
+border: #28221b solid;
+color: #EBECE7;
+padding: 10px 80px;
+text-align: center;
+display: inline-block;
+font-size: 20px;
+margin-left: 75%;
+margin-top: 50px;
+margin-bottom: 50px;
+transition-duration: 0.4s;
+cursor: pointer;
 }
 
 .more-button:hover {
