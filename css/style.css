@@ -193,6 +193,10 @@ main {
   min-width: 350px;
 }
 
+.inspirasjon-gallery {
+  padding-bottom: 35px;
+}
+
 /*bloggside Start*/
 
 .flex-container-blogg {
@@ -607,9 +611,8 @@ p {
   border-style: solid;
 }
 
-.inspirasjon-gallery {
-  padding-bottom: 35px;
-}
+
+/*her slutter css for produktside_Linnea*/
 
 /*her starter CSS for footer*/
 
