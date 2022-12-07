@@ -350,6 +350,19 @@ main {
     width: 100vw;
   }
 
+  .ystolen {
+    width: 90vw;
+  }
+  
+  
+  .jægerstolen {
+    width: 90vw;
+  }
+  
+  .egget {
+    width: 90vw;
+  }
+
   main {
     padding-top: 100px;
     background-color: #f0f0ed;
