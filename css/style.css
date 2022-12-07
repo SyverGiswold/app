@@ -213,13 +213,13 @@ main {
 .blogg-left {
   width: 45vw;
   margin-top: 33px;
-  
+
 }
 
 .blogg-right {
   width: 35vw;
   margin-top: 50px;
-  
+
 }
 
 .blogg-bilde-1 {
@@ -284,7 +284,7 @@ main {
   margin-bottom: 50px;
   transition-duration: 0.4s;
   cursor: pointer;
-  
+
 }
 
 .readmore-button:hover {
@@ -293,6 +293,7 @@ main {
   border: #28221b;
   border-style: solid;
 }
+
 /*bloggside end*/
 
 @media only screen and (min-width: 768px) {
@@ -313,6 +314,7 @@ main {
     margin-left: auto;
     margin-right: auto;
   }
+
   .readmore-button {
     max-width: 40%;
     font-size: 15px;
@@ -573,18 +575,18 @@ p {
 
 
 .more-button {
-background-color: #28221b;
-border: #28221b solid;
-color: #EBECE7;
-padding: 10px 80px;
-text-align: center;
-display: inline-block;
-font-size: 20px;
-margin-left: 75%;
-margin-top: 50px;
-margin-bottom: 50px;
-transition-duration: 0.4s;
-cursor: pointer;
+  background-color: #28221b;
+  border: #28221b solid;
+  color: #EBECE7;
+  padding: 10px 80px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 75%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  transition-duration: 0.4s;
+  cursor: pointer;
 }
 
 .more-button:hover {
